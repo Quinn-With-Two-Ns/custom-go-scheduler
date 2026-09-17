@@ -1,0 +1,4 @@
+[submodule "go"]
+	path = go
+	url = https://github.com/Quinn-With-Two-Ns/go.git
+	branch = deterministic-bubble
