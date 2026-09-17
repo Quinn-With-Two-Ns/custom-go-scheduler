@@ -15,6 +15,15 @@ configurable deterministic application randomness.
 Each bubble runs one logical user goroutine at a time; separate bubbles can run
 in parallel. This is a research prototype, not an accepted Go proposal or an SDK.
 
+Clone the repository together with its customized Go fork:
+
+```sh
+git clone --recurse-submodules https://github.com/Quinn-With-Two-Ns/custom-go-scheduler.git
+```
+
+For an existing clone, initialize the fork with
+`git submodule update --init --recursive`.
+
 Build and run the tests from this directory:
 
 ```sh
